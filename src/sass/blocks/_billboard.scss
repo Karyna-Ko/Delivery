@@ -1,0 +1,33 @@
+.billboard {
+    background: url('../img/bg_2-min.png') center (center / cover) no-repeat;
+    min-height: 342px;
+    &__block {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 58px;
+        img {
+            width: 102px;
+            height: 102px;
+        }
+    }
+    &__title {
+        margin-top: 20px;
+        font-size: 26px;
+        font-weight: 700;
+        text-align: center;
+        color: #fff;
+    }
+    &__subtitle {
+        margin-top: 22px;
+        font-size: 17px;
+        font-weight: 300;
+        text-align: center;
+        color: #fff;
+    }
+}
+.second {
+    background: url('../img/bg_3-min.png') center (center / cover) no-repeat; 
+    margin-top: 80px;
+}

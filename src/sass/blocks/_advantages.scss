@@ -1,0 +1,17 @@
+.advantages {
+    min-height: 590px;
+    padding: 57px 0 51px;
+    background-color: #f3f3f3;
+    &__block {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 31px auto 36px;
+    }
+    img {
+        margin-right: 17px;
+    }
+    &__text {
+        font-size: 14px;
+    }
+}

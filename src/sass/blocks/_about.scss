@@ -1,0 +1,22 @@
+.about {
+    min-height: 619px;
+    margin-top: 51px;
+    .subtitle_fz21 {
+        margin-bottom: 37px;
+    }
+    .subtitle_fz16 {
+        text-align: center;
+    }
+    &__descr {
+        margin-top: 28px;
+    }
+    &__text {
+        font-size: 14px;
+        text-align: justify;
+    }
+    &__block img {
+        display: block;
+        margin: 0 auto;
+        width: 100%;
+    }
+}

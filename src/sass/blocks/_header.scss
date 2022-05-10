@@ -1,0 +1,66 @@
+.header {
+    position: absolute;
+    width: 100%; 
+    min-height: 123px;
+        &__logo {
+            padding-top: 23px;
+        }
+        &__contacts {
+            text-align: right;
+            padding-top: 44px;
+            margin-left: 50px;
+
+            &-title {
+                font-size: 14px;
+                font-weight: 300;
+                color:#fff;
+                text-align: right;
+            }
+            &-phone {
+                font-size: 18px;
+                font-weight: 700;
+                text-align: right;
+                a {
+                    color:#fff;
+                }
+            }
+        }
+        &__btn {
+            margin-top: 44px;
+            margin-left: 19px;
+            width: 160px;               
+            height: 45px;
+            border-radius: 25px;
+            font-size: 12px;
+            font-weight: 300;
+            background-color: $main-color;
+            color: #fff;
+            text-transform: uppercase;
+            border: none;
+        }
+    }
+    
+     .menu {
+        display: flex;
+        justify-content: space-between;
+        width: 105%;
+        padding-top: 55px;
+        &__item {
+            border-right: 1px dotted gray;
+            padding-right: 10px;
+            &:last-child {
+                border-right: none;
+            }
+        }
+        &__link {
+            font-size: 15px;
+            font-weight: 300;
+            color: #fff;
+            &:hover {
+                color: $main-color;
+            }
+        }
+    }
+    ul {
+        list-style-type: none;
+    }

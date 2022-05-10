@@ -1,0 +1,66 @@
+.footer {
+    min-height: 201px;
+    background-color: $second-color;
+    padding: 24px 0 28px;
+    &__logo-home {
+        margin-right: 43px;
+    }
+    hr {
+        max-width: 1171px;
+        height: 1px;
+        background-color: #59829b;
+    }
+
+    &__title {
+        font-size: 16px;
+        font-weight: 500;
+        color: #fff;
+        margin: 27px 20% 0 0;
+    }
+    &__contacts {
+        font-size: 13px;
+        font-weight: 300;
+        text-align: right;
+        color: #fff;
+        margin-top: 14px;
+        a {
+            font-size: 19px;
+            font-weight: 500;
+            color: #fff;
+        }
+    }
+    &__btn {
+        margin: 15px 7px;
+        width: 160px;
+        height: 45px;
+        border-radius: 25px;
+        border: none;
+        font-size: 12px;
+        font-weight: 300;
+        background-color: #ec644b;
+        color: #fff;
+        text-transform: uppercase;
+    }
+    &__site, &__subtitle {
+        margin-top: 30px;
+        font-size: 13px;
+        font-weight: 300;
+        color: rgba(255, 255, 255, 0.6);
+        &:hover {
+            color: $main-color;
+        }
+    }
+    &__police {
+        margin-top: 30px;
+        font-size: 13px;
+        font-weight: 300;
+        color: $main-color;
+        text-decoration: underline;
+        &:hover {
+            color: #fff;
+        }
+    }
+    &__logo-web {
+       margin-left: 5px;
+    }
+}

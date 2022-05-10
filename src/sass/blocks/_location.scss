@@ -1,0 +1,48 @@
+.location {
+    min-height: 500px;
+    position: relative;
+    &__icon-glopt {
+        position: absolute;
+        top: 38%;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 51px;
+        height: 63px;
+    }
+    &__info {
+        position: absolute;
+        top: 51%;
+        left: 50%;
+        transform: translateX(-50%);
+        max-width: 329px;
+        min-height: 158px;
+        background-color: #fff;
+        padding: 27px 49px 28px 53px;
+        border: 1px solid $main-color;
+    }
+    &__addr {
+        font-size: 13px;
+        font-weight: 300;
+        text-align: left;
+        color: $second-color;
+        margin: 0;
+        span {
+            color: $main-color;
+            font-size: 15px;
+            font-weight: 500;
+        }
+    }
+    &__phone {
+        font-size: 13px;
+        font-weight: 300;
+        text-align: left;
+        color: $second-color;
+    }
+    &__mail {
+        font-size: 15px;
+        font-weight: 300;
+        text-align: left;
+        color: $main-color;
+        text-decoration: underline;
+    }
+}
